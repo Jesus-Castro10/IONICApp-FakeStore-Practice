@@ -1,0 +1,7 @@
+{
+  "name": "FakeStoreTaller",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
