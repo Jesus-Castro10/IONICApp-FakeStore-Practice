@@ -1,0 +1,29 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Product Details</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+  <ion-card>
+    <img src="{{product.image}}" alt="Product Image">
+    <ion-card-header>
+      <ion-card-title>{{ product.title }}</ion-card-title>
+      <ion-card-subtitle>
+        <ion-badge color="success">${{ product.price }}</ion-badge>
+      </ion-card-subtitle>
+    </ion-card-header>
+
+    <ion-card-content>
+      <p>{{ product.description }}</p>
+      <ion-chip>
+        <ion-icon name="pricetag"></ion-icon>
+        <ion-label>{{ product.category }}</ion-label>
+      </ion-chip>
+      <ion-chip>
+        <ion-icon name="star"></ion-icon>
+        <ion-label>{{ product.rating.rate }} ({{ product.rating.count }} reviews)</ion-label>
+      </ion-chip>
+    </ion-card-content>
+  </ion-card>
+</ion-content>
