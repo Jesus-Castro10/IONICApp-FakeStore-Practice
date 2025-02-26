@@ -45,6 +45,11 @@ ionic serve
 ````
 Esto abrirá la aplicación en```` http://localhost:8100/.````
 
+## Capturas
+![image](https://github.com/user-attachments/assets/a576a973-22b2-4a05-9f00-5714e00425ce)
+![image](https://github.com/user-attachments/assets/787f9709-9a48-4aa8-a41c-bd138c99f218)
+![image](https://github.com/user-attachments/assets/01d26d1c-9a3f-45bb-836e-940029cfa2f8)
+
 Contacto
 
 Si tienes preguntas o sugerencias, contáctame en jesusdavidcastror30@gmail.com.
