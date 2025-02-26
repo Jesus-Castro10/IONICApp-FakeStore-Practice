@@ -1,0 +1,10 @@
+<app-header-searchbar [title]="'List of Product'" [backRoute]="'/intro'"></app-header-searchbar>
+
+<ion-content fixed-slot-placement="before">
+  <ion-list>
+    @for (product of products; track product;) {
+    <app-card [card]="product" [nextRoute]="'/detail-product/'"></app-card>
+    }
+  </ion-list>
+</ion-content>
+<app-footer></app-footer>

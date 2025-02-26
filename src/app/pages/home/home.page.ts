@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { ProductService } from '../shared/services/product-service.service';
+import { ProductService } from '../../shared/services/product-service.service';
+import { Product } from '../../shared/interfaces/product';
 
 @Component({
   selector: 'app-home',
@@ -9,7 +10,7 @@ import { ProductService } from '../shared/services/product-service.service';
 })
 export class HomePage implements OnInit {
 
-  products: any[] = [];
+  products: Product[] = [];
 
   constructor(private service: ProductService) { }
 

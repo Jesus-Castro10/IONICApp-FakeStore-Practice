@@ -1,12 +1,11 @@
-<ion-header>
-  <ion-toolbar>
-    <ion-title>Product Details</ion-title>
-  </ion-toolbar>
-</ion-header>
+<app-header-searchbar [title]="'Product Detail'" [backRoute]="'/home'"></app-header-searchbar>
 
 <ion-content padding>
+  @if (product!=null){
   <ion-card>
-    <img src="{{product.image}}" alt="Product Image">
+    <ion-thumbnail>
+      <img alt=" avatar" src="{{product.image}}" />
+    </ion-thumbnail>
     <ion-card-header>
       <ion-card-title>{{ product.title }}</ion-card-title>
       <ion-card-subtitle>
@@ -26,4 +25,6 @@
       </ion-chip>
     </ion-card-content>
   </ion-card>
+  }
 </ion-content>
+<app-footer></app-footer>

@@ -1,0 +1,13 @@
+ion-thumbnail {
+  --size: 300px;
+  --border-radius: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+img{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
